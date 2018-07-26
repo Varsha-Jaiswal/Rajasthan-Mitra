@@ -8,3 +8,11 @@ Rajasthan Tourism Guide for travelers | Actions for Google Assistant
 3. Import all the Intent Files in Intents.
 4. Go to Fulfillments and Enable the code Editor.
 5. Replace the code with index.js & package.json file with AoG App Logic.
+
+
+### Firebase Web App
+
+1. Create a Project on Fireabse Console.
+2. Install Nodejs and Firebase CLI.
+3. `firebase init` and then select your project
+4. `firebase deploy` to deploy the web app.
