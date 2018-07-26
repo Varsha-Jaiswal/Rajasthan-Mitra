@@ -1,0 +1,162 @@
+{
+  "id": "775f13c6-0edf-4a01-a44f-a767127fc555",
+  "name": "Junagarh Fort",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Junagarh Fort s a fort in the city of Bikaner ,Rajasthan, India. The fort was originally called Chintamani.\nTiming:10 AM to 4:30 min."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Junagarh Fort",
+          "subtitle": "Junagarh Fort",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Junagarh Fort",
+                "synonyms": []
+              },
+              "title": "Junagarh Fort",
+              "description": "Junagarh Fort",
+              "image": {
+                "url": "https://www.tutorialspoint.com/junagarh_fort/images/junagarh_fort.jpg",
+                "accessibilityText": "Junagarh Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Junagarh Fort aerial view",
+                "synonyms": []
+              },
+              "title": "Junagarh Fort aerial view",
+              "description": "Junagarh Fort aerial view",
+              "image": {
+                "url": "https://thrillingtravel.in/wp-content/uploads/2016/12/IMG_5358-2-1024x683.jpg",
+                "accessibilityText": "Junagarh Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Junagarh Fort top view",
+                "synonyms": []
+              },
+              "title": "Junagarh Fort top view",
+              "description": "Junagarh Fort top view",
+              "image": {
+                "url": "https://www.itslife.in/wp-content/gallery/travel-rajasthan/travel-rajasthan-junagarh-fort-14.jpg",
+                "accessibilityText": "Junagarh Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Junagarh Fort side view",
+                "synonyms": []
+              },
+              "title": "Junagarh Fort side view",
+              "description": "Junagarh Fort side view",
+              "image": {
+                "url": "https://www.nativeplanet.com/img/2016/09/junagarh2-08-1473338480.jpg",
+                "accessibilityText": "Junagarh Fort"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Places"
+            },
+            {
+              "title": "Bikaner Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623565,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "07533f23-cebf-40c7-9ff6-4b60c93a2ea3",
+      "data": [
+        {
+          "text": "Junagarh Fort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623565,
+      "isAuto": false
+    },
+    {
+      "id": "681fbb4c-b85f-480c-b075-63a705669976",
+      "data": [
+        {
+          "text": "Junagarh Fort side view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532601893,
+      "isAuto": false
+    },
+    {
+      "id": "2d1ea9ca-8399-47eb-9cc0-6d9b6682d63c",
+      "data": [
+        {
+          "text": "Junagarh Fort top view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532601893,
+      "isAuto": false
+    },
+    {
+      "id": "4d1f2e67-348a-4038-9f4f-e3a7af1f3d25",
+      "data": [
+        {
+          "text": "Junagarh Fort aerial view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532601893,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

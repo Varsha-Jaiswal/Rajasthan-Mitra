@@ -1,0 +1,64 @@
+{
+  "id": "1775493d-c02b-47ce-9d06-f8de2626ffd6",
+  "name": "userInfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b821c9e-476b-4658-9750-58dd6ec8bf0b",
+          "required": false,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532618261,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "d46d607f-6c0c-472b-a11b-958e4bf7472b",
+      "data": [
+        {
+          "text": "email is "
+        },
+        {
+          "text": "vrijraj2396@gmail.com",
+          "alias": "email",
+          "meta": "@sys.email",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618261,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

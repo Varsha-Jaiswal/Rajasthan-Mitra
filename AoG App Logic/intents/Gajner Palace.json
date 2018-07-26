@@ -1,0 +1,161 @@
+{
+  "id": "643f416c-fea9-4d0d-b864-32e09b6ac666",
+  "name": "Gajner Palace",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Gajner Palace listed in Heritage Hotels in India, located just 30 minutes away from the Bikaner is one of the most sought-after heritage properties in the country. Located on the shores of Lake Gajner and in proximity to the Gajner wildlife sanctuary, this beautiful property is built in red sandstone. A getaway resort for special guests during the British Raj, it is now one of the finest heritage hotels."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Gajner Palace",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Gajner Palace",
+                "synonyms": []
+              },
+              "title": "Gajner Palace",
+              "description": "Gajner Palace",
+              "image": {
+                "url": "https://www.tourmyindia.com/images/gajner-palace1.jpg",
+                "accessibilityText": "Gajner Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Gajner Palace Top View",
+                "synonyms": []
+              },
+              "title": "Gajner Palace Top View",
+              "description": "Gajner Palace Top View",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrf9nI028rwTgGNJXh5Jd_oSDfoNAqpmBsFEzdgOyePJQBeLMP",
+                "accessibilityText": "Gajner Palace Top View"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Gajner Palace Side View",
+                "synonyms": []
+              },
+              "title": "Gajner Palace Side View",
+              "description": "Gajner Palace Side View",
+              "image": {
+                "url": "https://3.imimg.com/data3/GH/VJ/MY-9053750/gajner-palace-30-km-500x500.jpg",
+                "accessibilityText": "Gajner Palace Side View"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Gajner Palace Inner View",
+                "synonyms": []
+              },
+              "title": "Gajner Palace Inner View",
+              "description": "Gajner Palace Inner View",
+              "image": {
+                "url": "http://www.indiaprofile.com/hotels-india/gallery-images/hotels/small/gajner-palace-hotel-bikaner-4.jpg",
+                "accessibilityText": "Gajner Palace Inner View"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Places"
+            },
+            {
+              "title": "Bikaner Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532622986,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "83f5a3c6-8cbf-477d-8e9b-ecbdc0761e49",
+      "data": [
+        {
+          "text": "Gajner Palace Side View"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532598957,
+      "isAuto": false
+    },
+    {
+      "id": "967f37b7-b7d5-42ba-8144-31eff17398b0",
+      "data": [
+        {
+          "text": "Gajner Palace Inner View"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532598957,
+      "isAuto": false
+    },
+    {
+      "id": "e436f61a-d9a3-47c1-a3a5-1817742fe4fe",
+      "data": [
+        {
+          "text": "Gajner Palace Top View"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532598957,
+      "isAuto": false
+    },
+    {
+      "id": "c6c3fe93-693b-43be-9b65-19f7eec34d25",
+      "data": [
+        {
+          "text": "Gajner Palace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532598957,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

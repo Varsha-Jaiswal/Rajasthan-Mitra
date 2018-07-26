@@ -1,0 +1,113 @@
+{
+  "id": "11a388a4-f159-47f0-bf64-573f4e699dc6",
+  "name": "LAKE PALACE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Now a hotel but was originally called Jagniwas and served as a summer palace. Built between 1743 and 1746 on the island near Jagmandir in Lake Pichola, the palace, which faces east.\nTiming: 24 hours\nYou can reach at LAKE PALACE: through various means ."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "LAKE PALACE",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "LAKE PALACE",
+                "synonyms": []
+              },
+              "title": "LAKE PALACE",
+              "description": "LAKE PALACE",
+              "image": {
+                "url": "https://ak.jogurucdn.com/media/image/p25/place-2013-08-05-12-86f465a34f2d48dfcb3e34c875ffa134.jpg",
+                "accessibilityText": "LAKE PALACE"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "LAKE PALACE top view",
+                "synonyms": []
+              },
+              "title": "LAKE PALACE top view",
+              "description": "LAKE PALACE top view",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9FzxEH71O6g1_IBFTXulk2GtRzkR8nekgL9luGamsH1sTq_yD",
+                "accessibilityText": "LAKE PALACE"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "LAKE PALACE side view",
+                "synonyms": []
+              },
+              "title": "LAKE PALACE side view",
+              "description": "LAKE PALACE  side view",
+              "image": {
+                "url": "https://1.bp.blogspot.com/-qdBvM4SaKg4/VC1-vM_U8YI/AAAAAAAAAY0/zKZUkiOIDsU/s640/fp%2Binfo%2Bjal%2Bmahal.jpg",
+                "accessibilityText": "LAKE PALACE side view"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Udaipur Places"
+            },
+            {
+              "title": "Udaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623717,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "be3b210d-7046-4ba9-8d33-e473e859653d",
+      "data": [
+        {
+          "text": "LAKE PALACE"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532615659,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

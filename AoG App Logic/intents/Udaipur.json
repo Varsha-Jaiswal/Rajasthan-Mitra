@@ -1,0 +1,93 @@
+{
+  "id": "fe0205eb-89f7-404a-a25d-a9d098aae0b8",
+  "name": "Udaipur",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western Indian state of Rajasthan. Founded by Maharana Udai Singh II in 1559, it’s set around a series of artificial lakes and is known for its lavish royal residences. City Palace, overlooking Lake Pichola, is a monumental complex of 11 palaces, courtyards and gardens, famed for its intricate peacock mosaics."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Udaipur Places"
+            },
+            {
+              "title": "Udaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624053,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3142836b-efc4-4cbc-bfc6-74c7034c9790",
+      "data": [
+        {
+          "text": "What is udaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532610869,
+      "isAuto": false
+    },
+    {
+      "id": "ee2b6f01-dcf5-4852-b658-0748fcdee2ea",
+      "data": [
+        {
+          "text": "show some places in udaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532610869,
+      "isAuto": false
+    },
+    {
+      "id": "b4fb12ce-220d-4c89-a716-e34d5939087c",
+      "data": [
+        {
+          "text": "Udaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532610791,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

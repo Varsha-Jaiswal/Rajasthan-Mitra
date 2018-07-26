@@ -1,0 +1,149 @@
+{
+  "id": "5d0b677e-b83c-4e22-817a-df73b7495a7c",
+  "name": "Amer Fort",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Amer fort is built using the red as well as white stone marbles. The fort is built in with a mix of Hindu- Muslim style.\nTiming: 8 AM to  6 PM\nYou can reach at Amer Fort:\nFrom Jaipur Airport \nIt’s about 13km to the Fort and takes about 30 minutes.\nFrom Jaipur Railway Station\nThere are two types of mini-buses: air-con and non-aircon. The ride takes about 13 minutes depends on road traffic.\nFrom Jaipur Bus Station\nIt takes 15 mins to travel from Jaipur Bus Station to Jaipur City Amer Fort."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Amer Fort",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Amer Fort",
+                "synonyms": []
+              },
+              "title": "Amer Fort",
+              "description": "Amer Fort",
+              "image": {
+                "url": "https://www.tourmyindia.com/images/amber-palace-jaipur2.jpg",
+                "accessibilityText": "Amer Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Amer Fort Bird View",
+                "synonyms": []
+              },
+              "title": "Amer Fort Bird view",
+              "description": "Amer Fort",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEbS37Nd0HlNKk4rj_o-ItGiPCkexLTySZdEcixtR1KsVWrxF",
+                "accessibilityText": "Amer Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Amer Fort aerial view",
+                "synonyms": []
+              },
+              "title": "Amer Fort aerial view",
+              "description": "Amer Fort aerial view",
+              "image": {
+                "url": "http://www.ehabweb.net/wp-content/uploads/2012/04/100905_585.jpg",
+                "accessibilityText": "Amer Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Amer Fort side view",
+                "synonyms": []
+              },
+              "title": "Amer Fort side view",
+              "description": "Amer Fort side view",
+              "image": {
+                "url": "https://1913578542.rsc.cdn77.org/pictures/travel_guide/attractions/amber-fort-head-205.jpeg",
+                "accessibilityText": "Amer Fort"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur Places"
+            },
+            {
+              "title": "Jaipur Hotels"
+            },
+            {
+              "title": "See More Cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532622686,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "63c83703-b751-4bc2-8360-ae719fdfc93b",
+      "data": [
+        {
+          "text": "Amer Fort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594727,
+      "isAuto": false
+    },
+    {
+      "id": "4eb74d47-af47-41e2-8083-78d4684c804e",
+      "data": [
+        {
+          "text": "Amer Fort  aerial view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594727,
+      "isAuto": false
+    },
+    {
+      "id": "e65cfce0-be7a-4e51-ba7b-753a20e325c5",
+      "data": [
+        {
+          "text": "Amer Fort side view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532594727,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

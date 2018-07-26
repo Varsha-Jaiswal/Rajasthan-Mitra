@@ -1,0 +1,56 @@
+{
+  "id": "35f9e242-6217-4fa6-94d3-25aec3b1e229",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "I guess that internet is quite slow or intent might be unavailable."
+            },
+            {
+              "textToSpeech": "Internet connection is slow or intent is missing."
+            },
+            {
+              "textToSpeech": "Check your internet connection or intent might be unavailable."
+            },
+            {
+              "textToSpeech": "We are having problem in retrieving the data. Try after checking the internet connection."
+            },
+            {
+              "textToSpeech": "Hold!! We are retrieving the data or Intent might be unavailable or intent is missing."
+            },
+            {
+              "textToSpeech": "Hold on or intent is missing!!"
+            },
+            {
+              "textToSpeech": "Intent might be missing or there may be network connection error."
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532600419,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

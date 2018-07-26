@@ -1,0 +1,99 @@
+{
+  "id": "61f4286c-4919-43c4-8267-01645003ca5d",
+  "name": "Jaipur",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Jaipur-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Rajasthan's beautiful Pink City Jaipur, was the stronghold of a clan of rulers whose three hill forts and series of palaces in the city are important attractions. Known as the Pink City because of the colour of the stone used exclusively in the walled city, Jaipur's bazaars sell embroidered leather shoes, blue pottery, tie and dye scarves and other exotic wares. Western Rajasthan itself forms a convenient circuit, in the heart of the Thar desert which has shaped its history, lifestyles and architecture."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur Places"
+            },
+            {
+              "title": "Jaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623100,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8d973971-f627-43dc-8e03-49014bef4f61",
+      "data": [
+        {
+          "text": "Jaipur Information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587418,
+      "isAuto": false
+    },
+    {
+      "id": "bba79fa9-86f7-481a-a59b-60032b5f8cdb",
+      "data": [
+        {
+          "text": "Jaipur details"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587418,
+      "isAuto": false
+    },
+    {
+      "id": "8910a7b2-b56c-467a-aa03-ea048f98d5f1",
+      "data": [
+        {
+          "text": "Jaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587418,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

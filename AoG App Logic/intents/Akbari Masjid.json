@@ -1,0 +1,167 @@
+{
+  "id": "e10340c2-885c-42fa-abb1-3d9e8ee880d7",
+  "name": "Akbari Masjid",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "AkbariMasjid-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "The Jama Masjid of Amber is located near the Amer Fort on the outskirts of Jaipur City. Amber Jama Masjid also known as Akbari Masjid was built by Raja Bharmal on the order of Emperor Akbar in 1569 AD.\nTiming:4 Am to 9 PM\nYou can reach at Akbari Masjid:\nFrom Jaipur Airport\nIt’s about 26 km to the Majid and takes about 45minutes.\nFrom Jaipur Railway Station\nits just 0 Km , rarely takes 5 mins\nFrom Jaipur Bus Station\nit takes 15 mins from bus stand"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Akbari Masjid",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Akbari Masjid",
+                "synonyms": []
+              },
+              "title": "Akbari Masjid",
+              "description": "Akbari Masjid",
+              "image": {
+                "url": "https://maps.mapmyindia.com/place/P0000137719.jpg",
+                "accessibilityText": "Akbari Masjid"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Akbari Masjid Bird eye",
+                "synonyms": []
+              },
+              "title": "Akbari Masjid Bird eye",
+              "description": "Akbari Masjid Bird Eye",
+              "image": {
+                "url": "https://i0.wp.com/www.insearchofsukoon.com/wp-content/uploads/2017/12/badshahi-masjid.jpg",
+                "accessibilityText": "Akbari Masjid"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Akbari Masjid side view",
+                "synonyms": []
+              },
+              "title": "Akbari Masjid side view",
+              "description": "Akbari Masjid side view",
+              "image": {
+                "url": "https://nation.com.pk/digital_images/large/2017-09-21/restoring-the-glory-of-wazir-khan-mosque-1505991860-3801.jpg",
+                "accessibilityText": "Akbari Masjid"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Akbari Masjid aerial view",
+                "synonyms": []
+              },
+              "title": "Akbari Masjid aerial view",
+              "description": "Akbari Masjid aerial view",
+              "image": {
+                "url": "https://i.pinimg.com/originals/9d/54/ff/9d54ff8ea84ffcca648c33c250798c8b.jpg",
+                "accessibilityText": "Akbari Masjid"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur place"
+            },
+            {
+              "title": "Jaipur Hotel"
+            },
+            {
+              "title": "See More Cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532622657,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "933d2eec-6998-459c-bec5-d0073680fd0e",
+      "data": [
+        {
+          "text": "Akbari Masjid  bird eye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596494,
+      "isAuto": false
+    },
+    {
+      "id": "87263d84-928c-4fe8-be22-226011752b2b",
+      "data": [
+        {
+          "text": "Akbari Masjid aerial view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596494,
+      "isAuto": false
+    },
+    {
+      "id": "b09e590a-ce02-4c75-aaed-402f5b95c12c",
+      "data": [
+        {
+          "text": "Akbari Masjid side view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596494,
+      "isAuto": false
+    },
+    {
+      "id": "6636608a-fe57-40e6-983c-08631f83a178",
+      "data": [
+        {
+          "text": "Akbari Masjid"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596494,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

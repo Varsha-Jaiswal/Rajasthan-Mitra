@@ -1,0 +1,151 @@
+{
+  "id": "ae29b160-bc9b-4122-9e69-d290c2e260da",
+  "name": "Main menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Welcome again!!!"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Jaipur",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Jaipur",
+                "synonyms": []
+              },
+              "title": "Jaipur",
+              "description": "Jaipur is the capital and the largest city of Rajasthan. It is also known as \"Pink City\".",
+              "image": {
+                "url": "https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG",
+                "accessibilityText": "Jaipur"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jodhpur",
+                "synonyms": []
+              },
+              "title": "Jodhpur",
+              "description": "Jodhpur is second largest city of Rajasthan, featuring many palaces, forts and temples.",
+              "image": {
+                "url": "https://c1.hiqcdn.com/customcdn/293x220/photos/jo/Jodhpur-Photos-Umaid-Bhawan-Jodhpur-663-4-jpg-destreviewimages-293x220-1324605356.jpg",
+                "accessibilityText": "Jodhpur"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Udaipur",
+                "synonyms": []
+              },
+              "title": "Udaipur",
+              "description": "Udaipur is also known as \"City of Lakes\".",
+              "image": {
+                "url": "http://im.hunt.in/cg/udaipur/City-Guide/Lake3.jpg",
+                "accessibilityText": "Udaipur"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Bikaner",
+                "synonyms": []
+              },
+              "title": "Bikaner",
+              "description": "Bikaner",
+              "image": {
+                "url": "https://www.tourmyindia.com/images/gajner-palace1.jpg",
+                "accessibilityText": "Bikaner"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jaisalmer",
+                "synonyms": []
+              },
+              "title": "Jaisalmer",
+              "description": "Jaisalmer",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/01/ba/1c/e3/jaisalmer.jpg",
+                "accessibilityText": "Jaisalmer"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Kota",
+                "synonyms": []
+              },
+              "title": "Kota",
+              "description": "Kota",
+              "image": {
+                "url": "http://im.hunt.in/cg/Kota/City-Guide/Taragarh-fort-in-kota.JPG",
+                "accessibilityText": "Kota"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Ajmer",
+                "synonyms": []
+              },
+              "title": "Ajmer",
+              "description": "Ajmer",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/06/7f/4d/33/ajmer-sharif-dargah.jpg",
+                "accessibilityText": "Ajmer"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624420,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "31aa7f97-51e9-495f-ba4f-aa18587b312c",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532614128,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

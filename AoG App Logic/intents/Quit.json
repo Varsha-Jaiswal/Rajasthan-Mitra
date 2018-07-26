@@ -1,0 +1,131 @@
+{
+  "id": "5a7108c6-9369-4a48-b089-8e469f7efe78",
+  "name": "Quit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok Bye!!"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "See you again!",
+          "formattedText": "Hope you got the information which you were looking for.",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/Bf656XhgRWIfRBwTXj27ETkesvr_Q8h79Twi9Gao9vNmyblbpX2vPssPOcljjh0QwK_fV_7nlEKW9ZhTAyJR6FiIfWPYC2rR-N-LG9gfzEcebwmc-Ba2kKQsLK7Gs4yaTz3GT1aO6-wkY9FnJ1b_u-ENzanP9f7iJN3kYvMOzppLSGwyVo7cTb1zBYDfWxj8Q8LlItdWnX8312gIQ3PMZ99DZkHfkNut72F5juWu4sscmGh0CM_mCQvqbpkTLKPekSI88gTr4yvMofRFkkTFz8F2AQ3FwPtyzI_B876Wonq8vv1AMMOJrMdbc4hnYj_Ozmp4Vi1zKPhIt9yr2JMcpRhvETHIIOQp-ZJPgHYMu1-J8N5TcG6GR6VCNo0jWogTJ5kTu45H4aQlG4POfjY1lSIniDy7nfr-74pkkanKxSrzhn0t2lrfpIYSdyxvkgoJllIudbxRhFvqt1ZIriFJy5JfRfacyO5aDmahEHavMpXDD-2wphOoU8JImJ4R6-V90M9wlhGDF5ajWuOeGYhffUSGxIoAmlm3W0dTL_PHC0bkQpHjobSJuyhY8cBIPIUhH-DWW0HK9OaYaSPE41A0KUiTq7k9MqeAh5p8gJE=w300-h163-no",
+            "accessibilityText": "Rajasthan Mitra"
+          },
+          "buttons": [
+            {
+              "title": "Go to our Rajasthan Mitra Website",
+              "openUrlAction": {
+                "url": "https://rajmitra-6f773.firebaseapp.com/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623928,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "60661776-3af0-4550-95e1-8b13251ebed4",
+      "data": [
+        {
+          "text": "leave"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623928,
+      "isAuto": false
+    },
+    {
+      "id": "488377e2-1cfb-461b-8557-13b963caa33e",
+      "data": [
+        {
+          "text": "Quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532602645,
+      "isAuto": false
+    },
+    {
+      "id": "affa6fc0-a4b0-447a-af34-1eb067943745",
+      "data": [
+        {
+          "text": "Exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618488,
+      "isAuto": false
+    },
+    {
+      "id": "a6ca3011-50c3-4c3d-96fa-7d575ad4202b",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532618488,
+      "isAuto": false
+    },
+    {
+      "id": "727098d3-1b06-450b-a45c-dfc7400d00ce",
+      "data": [
+        {
+          "text": "Bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532602645,
+      "isAuto": false
+    },
+    {
+      "id": "206c667f-3e1d-4569-b760-eab29a2c5551",
+      "data": [
+        {
+          "text": "Ok Bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532602645,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

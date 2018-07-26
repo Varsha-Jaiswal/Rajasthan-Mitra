@@ -1,0 +1,113 @@
+{
+  "id": "6c292bd9-2dc0-47d4-adf7-8a3a462d026e",
+  "name": "Lalgarh Palace",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Lalgarh Palace is a palace and heritage hotel in Bikaner in the Indian state of Rajasthan, built for Sir Ganga Singh, Maharaja of Bikaner.\nTiming:10 Am to 5 Pm"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Lalgarh Palace",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Lalgarh Palace",
+                "synonyms": []
+              },
+              "title": "Lalgarh Palace",
+              "description": "Lalgarh Palace",
+              "image": {
+                "url": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco/https://dzh0sbrwpq3wf.cloudfront.net/attachments/pictures/874284/original/Lalgarh_Palace.jpg",
+                "accessibilityText": "Lalgarh Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Lalgarh Palace side view",
+                "synonyms": []
+              },
+              "title": "Lalgarh Palace side view",
+              "description": "Lalgarh Palace side view",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Lalgarh_palace_bikaner.jpg/360px-Lalgarh_palace_bikaner.jpg",
+                "accessibilityText": "Lalgarh Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Lalgarh Palace top view",
+                "synonyms": []
+              },
+              "title": "Lalgarh Palace top view",
+              "description": "Lalgarh Palace top  view",
+              "image": {
+                "url": "https://www.ohmyrajasthan.com/uploads/4/1514884107Kirsten-and-Richard.jpg",
+                "accessibilityText": "Lalgarh Palace"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Places"
+            },
+            {
+              "title": "Bikaner Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623800,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "665dffbf-b516-4e8f-8d0e-a2c6a1ca040f",
+      "data": [
+        {
+          "text": "Lalgarh Palace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623800,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

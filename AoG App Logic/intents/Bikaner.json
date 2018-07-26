@@ -1,0 +1,105 @@
+{
+  "id": "dcb64299-13c7-4265-a170-88373a3cddab",
+  "name": "Bikaner",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Bikaner is a city in the northwest of the state of Rajasthan, India. It is located 330 kilometres northwest of Jaipur.\nThe city was founded by Rao Bika in 1486. The Ganges Canal, completed in 1928, and the Indira Gandhi Canal, completed in 1987, facilitated its development.\n\nThe city celebrates its foundation day on Akshaya Tritiya by flying kites and eating special Rajasthani food that includes Bajre Ka Khichda and Imli ka Paani. The celebration lasts for two days, known as Chhoti Akha Teej and Badi Akha Teej."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Hotels"
+            },
+            {
+              "title": "Bikaner Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532622787,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8c5afcc6-0ae6-4e6c-a11f-872a83962fd3",
+      "data": [
+        {
+          "text": "Bikaner Details"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594326,
+      "isAuto": false
+    },
+    {
+      "id": "f9a01c3c-f21c-4937-869b-d1b32d56c0fa",
+      "data": [
+        {
+          "text": "Bikaner Information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594326,
+      "isAuto": false
+    },
+    {
+      "id": "d0f04fac-a7c2-4d12-9f33-9ce86676bd08",
+      "data": [
+        {
+          "text": "About Bikaner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594326,
+      "isAuto": false
+    },
+    {
+      "id": "8e241c5f-3cf5-4f53-8c9f-74c3a89c1cf6",
+      "data": [
+        {
+          "text": "Bikaner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594326,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

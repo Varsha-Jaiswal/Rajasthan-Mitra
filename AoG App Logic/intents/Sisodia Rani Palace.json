@@ -1,0 +1,137 @@
+{
+  "id": "f3a4bc57-d9c0-4970-b9a1-f41ea8a8afd8",
+  "name": "Sisodia Rani Palace",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Sisodia Rani Garden and Palace is a palace garden 6 kilometres from Jaipur city in of Rajasthan state in India. It was built by Maharaja Sawai Jai Singh II in 1728.\nTiming: 8 AM to 5 PM\nYou can reach at Sisodia Rani:\nFrom Jaipur Airport \n It’s about 14.2 km to the mahal and takes about 32 minutes.\nFrom Jaipur Railway Station\nThe ride takes about 26 minutes depends on road traffic.\nFrom Jaipur Bus Station\nIt takes 8 mins."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Sisodia Rani Palace",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Sisodia Rani Palace",
+                "synonyms": []
+              },
+              "title": "Sisodia Rani Palace",
+              "description": "Sisodia Rani Palace",
+              "image": {
+                "url": "https://content3.jdmagicbox.com/comp/jaipur/p4/0141px141.x141.141218160549.s2p4/catalogue/sisodia-rani-palace-and-garden-jaipur-tourist-attraction-2z5ng7w.jpg",
+                "accessibilityText": "Sisodia Rani Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Sisodia Rani Palace top view",
+                "synonyms": []
+              },
+              "title": "Sisodia Rani Palace top view",
+              "description": "Sisodia Rani Palace top view",
+              "image": {
+                "url": "https://www.tourmyindia.com/images/jaipur-sisodia-rani-palace-garden.jpg",
+                "accessibilityText": "Sisodia Rani Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Sisodia Rani Palace side view",
+                "synonyms": []
+              },
+              "title": "Sisodia Rani Palace side view",
+              "description": "Sisodia Rani Palace side view",
+              "image": {
+                "url": "https://c8.alamy.com/comp/AF0YA4/view-of-sisodia-rani-ka-bagh-queens-palace-and-gardens-6km-east-of-AF0YA4.jpg",
+                "accessibilityText": "Sisodia Rani Palace"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur Places"
+            },
+            {
+              "title": "Jaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624000,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a6618e9e-36eb-4c97-9c7d-2da8431f950e",
+      "data": [
+        {
+          "text": "Sisodia Rani Palace top view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532597974,
+      "isAuto": false
+    },
+    {
+      "id": "7bf11afc-0ed7-49e8-bbc8-54204d42eebe",
+      "data": [
+        {
+          "text": "Sisodia Rani Palace side view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532597974,
+      "isAuto": false
+    },
+    {
+      "id": "bad650d7-c53e-4ff3-95bd-4e8064de0ea5",
+      "data": [
+        {
+          "text": "Sisodia Rani Palace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532597928,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

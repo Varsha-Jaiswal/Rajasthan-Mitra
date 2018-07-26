@@ -1,0 +1,158 @@
+{
+  "id": "1c6258e2-1671-4f02-9b95-6e90ad43fea1",
+  "name": "Udaipur Places",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "There are several beautiful places in Udaipur"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "UDAIPUR CITY PALACE",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "UDAIPUR CITY PALACE",
+                "synonyms": []
+              },
+              "title": "UDAIPUR CITY PALACE",
+              "description": "UDAIPUR CITY PALACE",
+              "image": {
+                "url": "https://www.holidify.com/images/compressed/3137.jpg",
+                "accessibilityText": "UDAIPUR CITY PALACE"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "LAKE PALACE",
+                "synonyms": []
+              },
+              "title": "LAKE PALACE",
+              "description": "LAKE PALACE",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Udaipur_Lake_Palace.jpg/340px-Udaipur_Lake_Palace.jpg",
+                "accessibilityText": "LAKE PALACE"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "JAG MANDIR",
+                "synonyms": []
+              },
+              "title": "JAG MANDIR",
+              "description": "JAG MANDIR",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/JagMandir.jpg/300px-JagMandir.jpg",
+                "accessibilityText": "JAG MANDIR"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "LAKE PICHOLA",
+                "synonyms": []
+              },
+              "title": "LAKE PICHOLA",
+              "description": "LAKE PICHOLA",
+              "image": {
+                "url": "http://www.lavacanza.in/imgHandler.ashx?image=http://cache-graphicslib.viator.com/graphicslib/thumbs674x446/5353/SITours/sunset-boat-cruise-on-lake-pichola-in-udaipur-with-private-transport-in-udaipur-121619.jpg&width=1400&height=0",
+                "accessibilityText": "LAKE PICHOLA"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Udaipur Hotel"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624243,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1babef6c-e340-41d8-8652-78d197944ad6",
+      "data": [
+        {
+          "text": "udaipur place"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532617452,
+      "isAuto": false
+    },
+    {
+      "id": "00d97672-1a81-46e4-a95f-146f7f2c5e78",
+      "data": [
+        {
+          "text": "udaipur area"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532617452,
+      "isAuto": false
+    },
+    {
+      "id": "ffff73f9-8d95-4b86-a415-a9a64b240397",
+      "data": [
+        {
+          "text": " show Udaipur Places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532617452,
+      "isAuto": false
+    },
+    {
+      "id": "79f29f8a-14e8-4a6d-b324-d283aed6a2b8",
+      "data": [
+        {
+          "text": "Udaipur Places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532617452,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

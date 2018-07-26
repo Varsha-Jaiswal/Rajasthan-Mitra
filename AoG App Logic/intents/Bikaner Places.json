@@ -1,0 +1,160 @@
+{
+  "id": "5809e26c-ec14-4fb3-86df-7c842118cb7c",
+  "name": "Bikaner Places",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Here are some beautiful places in Bikaner."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Lalgarh Palace",
+                "synonyms": []
+              },
+              "title": "Lalgarh Palace",
+              "description": "Lalgarh Palace is a palace and heritage hotel in Bikaner in the Indian state of Rajasthan, built for Sir Ganga Singh, Maharaja of Bikaner, between 1902 and 1926.",
+              "image": {
+                "url": "http://3.bp.blogspot.com/-ThLHHwNcmXA/Tx8gR0GAhYI/AAAAAAAAByQ/HTOcssstVI4/s1600/Lalgarh+Palace%252C+Bikaner%252C+Rajasthan1.jpg",
+                "accessibilityText": "Lalgarh Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Junagarh Fort",
+                "synonyms": []
+              },
+              "title": "Junagarh Fort",
+              "description": "Junagarh Fort (Rajasthani: जुनाग्द क़िला) is a fort in the city of Bikaner, Rajasthan, India. The fort was originally called Chintamani and was renamed Junagarh or \"Old Fort\" in the early 20th century when the ruling family moved to Lalgarh Palace outside the fort limits.",
+              "image": {
+                "url": "https://www.holidify.com/images/compressed/attractions/attr_2312.jpg",
+                "accessibilityText": "Junagarh Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Kolayatji Temple",
+                "synonyms": []
+              },
+              "title": "Kolayatji Temple",
+              "description": "A famous pilgrimage spot with a temple dedicated to Kapil Muni (saint) is situated 50 km from Bikaner on highway leading to Jaisalmer.",
+              "image": {
+                "url": "https://tse4.mm.bing.net/th?id=OIP.GcMT9OvhTQ3YhbfgSSTP_gHaGL&pid=15.1&P=0&w=211&h=176",
+                "accessibilityText": "Kolayatji Temple"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Gajner Palace",
+                "synonyms": []
+              },
+              "title": "Gajner Palace",
+              "description": "Gajner Palace listed in Heritage Hotels in India, located just 30 minutes away from the Bikaner is one of the most sought-after heritage properties in the country. Located on the shores of Lake Gajner and in proximity to the Gajner wildlife sanctuary, this beautiful property is built in red sandstone.",
+              "image": {
+                "url": "https://tse3.mm.bing.net/th?id=OIP.kzcdsgizM-D--AYyPmtRnwHaE8&pid=15.1&P=0&w=266&h=178",
+                "accessibilityText": "Gajner Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Karni Mata Temple",
+                "synonyms": []
+              },
+              "title": "Karni Mata Temple",
+              "description": "Karni Mata Temple (Hindi: करणी माता मंदिर) is a Hindu temple dedicated to Karni Mata at Deshnoke, 30 km from Bikaner, in Rajasthan, India. It is also known as the Temple of Rats.\n\nThe temple is famous for the approximately 25,000 black rats that live, and are revered, in the temple. These holy rats are called kabbas.",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Le_temple_de_Karni_Mata_(Deshnoke)_(8423353617).jpg",
+                "accessibilityText": "Karni Mata Temple"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532622897,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ce223190-88ae-418e-bf1f-2c2ca0877e08",
+      "data": [
+        {
+          "text": "bikaner places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532593935,
+      "isAuto": false
+    },
+    {
+      "id": "c6815f3e-c4b0-4826-bd0f-98e22ebe3ffb",
+      "data": [
+        {
+          "text": "show some places in bikaner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532593935,
+      "isAuto": false
+    },
+    {
+      "id": "c00951ea-3e32-43a1-8d82-c95a1c3c71f9",
+      "data": [
+        {
+          "text": "what are you the places in bikaner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594602,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

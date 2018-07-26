@@ -1,0 +1,130 @@
+{
+  "id": "07560f6c-9248-42f9-b3be-9514f3c81fe7",
+  "name": "Jodhpur Hotels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Here are the few hotels"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "items": [
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g297668-d3822317-Reviews-Kesar_Heritage_Boutique_Home_Stay-Jodhpur_Jodhpur_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Kesar Heritage Boutique Home Stay",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/06/34/dc/79/kesar-heritage-guest.jpg",
+                "accessibilityText": "Kesar Heritage Boutique Home Stay"
+              }
+            },
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g297668-d307185-Reviews-Hotel_Ratan_Vilas-Jodhpur_Jodhpur_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Hotel Ratan Vilas",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/54/52/fb/ratan-vilas.jpg",
+                "accessibilityText": "Hotel Ratan Vilas"
+              }
+            },
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g297668-d304853-Reviews-Vivanta_by_Taj_Hari_Mahal_Jodhpur-Jodhpur_Jodhpur_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Vivanta by Taj - Hari Mahal",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/0d/85/8e/2a/ola-bar.jpg",
+                "accessibilityText": "Vivanta by Taj - Hari Mahal"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jodhpur Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623464,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c5020c34-6bb6-4500-af40-a81855b990d3",
+      "data": [
+        {
+          "text": "Jodhpur Hotels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532612621,
+      "isAuto": false
+    },
+    {
+      "id": "04a14d1f-5203-410c-9e8d-8a553e2ac0f3",
+      "data": [
+        {
+          "text": "Hotels in Jodhpur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596282,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

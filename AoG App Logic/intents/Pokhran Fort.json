@@ -1,0 +1,101 @@
+{
+  "id": "c5cec65c-8327-483d-9e76-ee610a7aad38",
+  "name": "Pokhran Fort",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Pokhran is a city and a municipality located in the Jaisalmer district of the Indian state of Rajasthan. It is a remote location in the Thar Desert region and served as the test site for India's first underground nuclear weapon detonation.\nTiming: 9 AM to 5 PM"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Pokhran Fort",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Pokhran Fort",
+                "synonyms": []
+              },
+              "title": "Pokhran Fort",
+              "description": "Pokhran Fort",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPt9c3oJHmEfatGNBTwz6lwRpOgEfAkYTZgRfN86ckSX4hQt5t1w",
+                "accessibilityText": "Pokhran Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Pokhran Fort top view",
+                "synonyms": []
+              },
+              "title": "Pokhran Fort top view",
+              "description": "Pokhran Fort top view",
+              "image": {
+                "url": "http://www.rajasthanvisit.com/images/Pokhran_fort3.jpg",
+                "accessibilityText": "Pokhran Fort"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaisalmer Places"
+            },
+            {
+              "title": "Jaisalmer Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623897,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ee41be8e-e1a7-4502-ad99-94719cde8933",
+      "data": [
+        {
+          "text": "Pokhran Fort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532619222,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

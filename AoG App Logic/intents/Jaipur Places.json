@@ -1,0 +1,206 @@
+{
+  "id": "c1657585-d3e0-41fa-920a-9062f1957597",
+  "name": "Jaipur Places",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "These are the top 10 places to explore in Jaipur."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Hawa Mahal",
+                "synonyms": []
+              },
+              "title": "Hawa Mahal",
+              "description": "Hawa Mahal or the 'Palace Of The Winds' located in the heart of the beautiful Pink City of Jaipur, is one of the most famous tourist attractions and a prominent landmark of the city that is renowned for its rich cultural and architectural history.",
+              "image": {
+                "url": "https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG",
+                "accessibilityText": "Hawa Mahal"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Amer Fort",
+                "synonyms": []
+              },
+              "title": "Amer Fort",
+              "description": "Amer fort is built using the red as well as white stone marbles. The fort is built in with a mix of Hindu- Muslim style.",
+              "image": {
+                "url": "https://www.travelogyindia.com/images/jaipur/amber-fort-541.jpg",
+                "accessibilityText": "Amer Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Sisodia Rani Palace",
+                "synonyms": []
+              },
+              "title": "Sisodia Rani Palace",
+              "description": "Sisodia Rani Palace and Garden is located at a distance of 8 km from Jaipur. This beautiful garden was built by Maharaja Sawai Jai Singh.",
+              "image": {
+                "url": "https://i.pinimg.com/originals/74/ac/00/74ac00f631c9ea887d8d5203c924f32b.jpg",
+                "accessibilityText": "Sisodia Rani Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jaipur Wax Museum",
+                "synonyms": []
+              },
+              "title": "Jaipur Wax Museum",
+              "description": "Wax figures of royalty, celebrities, historical figures & cartoon icons displayed in Nahargarh Fort.",
+              "image": {
+                "url": "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2017/01/Jaipur-Wax-Museum.jpg",
+                "accessibilityText": "Jaipur Wax Museum"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Akbari Masjid",
+                "synonyms": []
+              },
+              "title": "Akbari Masjid",
+              "description": "Akbari masjid is a mosque located inside the dargha in the name of the great mughal ruler Akbar.",
+              "image": {
+                "url": "http://tourmet.com/wp-content/uploads/2014/07/Akbari-Masjid-Ajmer.jpg",
+                "accessibilityText": "Akbari Masjid"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623171,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "b35e1690-d55f-492b-9d2d-f7d47c192c00",
+      "data": [
+        {
+          "text": "Jaipur Places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596679,
+      "isAuto": false
+    },
+    {
+      "id": "7715559e-3fa6-4bce-aca5-0f5b2436ee23",
+      "data": [
+        {
+          "text": "jaipur place"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596679,
+      "isAuto": false
+    },
+    {
+      "id": "ac03234d-36e4-445c-bbac-edc1069948af",
+      "data": [
+        {
+          "text": "Jaipur Palaces"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596679,
+      "isAuto": false
+    },
+    {
+      "id": "dc58a287-f39d-40ec-937a-0f6a9e822066",
+      "data": [
+        {
+          "text": "Palaces in Jaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596679,
+      "isAuto": false
+    },
+    {
+      "id": "bad4fc1f-c205-4b4a-befa-8251c5664aa2",
+      "data": [
+        {
+          "text": "Forts in Jaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596679,
+      "isAuto": false
+    },
+    {
+      "id": "441af154-d5e2-45fd-a14f-07e33217bad4",
+      "data": [
+        {
+          "text": "Jaipur Forts"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532596679,
+      "isAuto": false
+    },
+    {
+      "id": "52f346a7-be70-4ff5-b1dd-5fda878ced95",
+      "data": [
+        {
+          "text": "Places in Jaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532596679,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

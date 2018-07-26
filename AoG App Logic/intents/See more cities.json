@@ -1,0 +1,201 @@
+{
+  "id": "f1e9c95d-4579-4557-8b5e-e79942aaacd3",
+  "name": "See more cities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Here are the list of the cities."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Jaipur",
+          "subtitle": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Jaipur",
+                "synonyms": []
+              },
+              "title": "Jaipur",
+              "description": "Jaipur is the capital and the largest city of Rajasthan. It is also known as \"Pink City\".",
+              "image": {
+                "url": "https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG",
+                "accessibilityText": "Jaipur"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jodhpur",
+                "synonyms": []
+              },
+              "title": "Jodhpur",
+              "description": "Jodhpur is second largest city of Rajasthan, featuring many palaces, forts and temples.",
+              "image": {
+                "url": "https://c1.hiqcdn.com/customcdn/293x220/photos/jo/Jodhpur-Photos-Umaid-Bhawan-Jodhpur-663-4-jpg-destreviewimages-293x220-1324605356.jpg",
+                "accessibilityText": "Jodhpur"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Udaipur",
+                "synonyms": []
+              },
+              "title": "Udaipur",
+              "description": "Udaipur is also known as \"City of Lakes\".",
+              "image": {
+                "url": "http://im.hunt.in/cg/udaipur/City-Guide/Lake3.jpg",
+                "accessibilityText": "Udaipur"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Bikaner",
+                "synonyms": []
+              },
+              "title": "Bikaner",
+              "description": "Bikaner",
+              "image": {
+                "url": "https://www.tourmyindia.com/images/gajner-palace1.jpg",
+                "accessibilityText": "Bikaner"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jaisalmer",
+                "synonyms": []
+              },
+              "title": "Jaisalmer",
+              "description": "Jaisalmer",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/01/ba/1c/e3/jaisalmer.jpg",
+                "accessibilityText": "Jaisalmer"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Kota",
+                "synonyms": []
+              },
+              "title": "Kota",
+              "description": "Kota",
+              "image": {
+                "url": "http://im.hunt.in/cg/Kota/City-Guide/Taragarh-fort-in-kota.JPG",
+                "accessibilityText": "Kota"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Ajmer",
+                "synonyms": []
+              },
+              "title": "Ajmer",
+              "description": "Ajmer",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/06/7f/4d/33/ajmer-sharif-dargah.jpg",
+                "accessibilityText": "Ajmer"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623967,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a2092c11-a1bb-4e20-8a04-865176ca5f55",
+      "data": [
+        {
+          "text": "Show more city"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587890,
+      "isAuto": false
+    },
+    {
+      "id": "e1afdd4f-7000-47ef-801e-bc124db955c8",
+      "data": [
+        {
+          "text": "See more city"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587890,
+      "isAuto": false
+    },
+    {
+      "id": "bf0a4ab5-a6cd-4e95-9d45-1ff91036e219",
+      "data": [
+        {
+          "text": "More city"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587890,
+      "isAuto": false
+    },
+    {
+      "id": "ed588ac8-02ae-4d44-b2e8-d9a51c0dc9f2",
+      "data": [
+        {
+          "text": "More cities"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587890,
+      "isAuto": false
+    },
+    {
+      "id": "6efdfea8-6457-4ffc-a6fe-98eda37a1f34",
+      "data": [
+        {
+          "text": "See more cities"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532587890,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

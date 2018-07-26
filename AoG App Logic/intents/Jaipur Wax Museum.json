@@ -1,0 +1,101 @@
+{
+  "id": "156639ac-987a-405f-a25c-f85deff463d7",
+  "name": "Jaipur Wax Museum",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Jaipur Wax Museum at Nahargarh Fort, a new feather added in the crown of Department of Archaeology & Museums The Nahargarh Fort, is the city’s defense fortress built at the highest point .\nTiming:10 AM to 6:30 PM\nYou can reach at Wax Museum\nFrom Jaipur Airport\nDistance is 14 km and it 25 mins.\nFrom Jaipur Railway Station\nit takes 25 mins\nFrom bus stand \nIt takes nearly 15 mins"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Jaipur Wax Museum",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Jaipur Wax Museum",
+                "synonyms": []
+              },
+              "title": "Jaipur Wax Museum",
+              "description": "Jaipur Wax Museum",
+              "image": {
+                "url": "https://www.museumsofindia.org/sp/sites/default/files/2017-11/01_5.JPG",
+                "accessibilityText": "Jaipur Wax Museum"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jaipur Wax Museum inner view",
+                "synonyms": []
+              },
+              "title": "Jaipur Wax Museum inner view",
+              "description": "Jaipur Wax Museum inner view",
+              "image": {
+                "url": "https://i.ndtvimg.com/i/2018-03/jaipur-wax-museum-robot_650x400_71521967616.jpg",
+                "accessibilityText": "Jaipur Wax Museum"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur place"
+            },
+            {
+              "title": "Jaipur Hostel"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623207,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "b6977494-0ff6-4df3-ba25-065f6675c31f",
+      "data": [
+        {
+          "text": "Jaipur Wax Museum"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532599034,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

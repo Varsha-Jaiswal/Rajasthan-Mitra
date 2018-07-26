@@ -1,0 +1,101 @@
+{
+  "id": "8b92824c-c0e6-4610-aa1e-c228277b2d13",
+  "name": "JAG MANDIR",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Jag Mandir is a palace built on an island in the Lake Pichola. \nIt is also called the \"Lake Garden Palace\".\nTiming: 10 AM  to 6 PM"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "JAG MANDIR",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "JAG MANDIR",
+                "synonyms": []
+              },
+              "title": "JAG MANDIR",
+              "description": "JAG MANDIR",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/JagMandir.jpg/300px-JagMandir.jpg",
+                "accessibilityText": "JAG MANDIR"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "JAG MANDIR top view",
+                "synonyms": []
+              },
+              "title": "JAG MANDIR  top view",
+              "description": "JAG MANDIR top view",
+              "image": {
+                "url": "https://www.tourmyindia.com/images/jag-mandir1.jpg",
+                "accessibilityText": "JAG MANDIR"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Udaipur Places"
+            },
+            {
+              "title": "Udaipur Hotel"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623059,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "eddb156b-0025-4ac8-9195-93bcf8457a37",
+      "data": [
+        {
+          "text": "JAG MANDIR"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532616028,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,81 @@
+{
+  "id": "f61903c0-07b3-4f7b-aa76-a4d6678eca3e",
+  "name": "Jaisalmer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Jaisalmer is a former medieval trading center and a princely state in the western Indian state of Rajasthan, in the heart of the Thar Desert. Known as the \"Golden City,\" it's distinguished by its yellow sandstone architecture. Dominating the skyline is Jaisalmer Fort, a sprawling hilltop citadel buttressed by 99 bastions. Behind its massive walls stand the ornate Maharaja's Palace and intricately carved Jain temples."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaisalmer Places"
+            },
+            {
+              "title": "Jaisalmer  Hotel"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623260,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "aab339b2-7a28-46b2-b8c3-ad2a992052c2",
+      "data": [
+        {
+          "text": "show details of Jaisalmer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623260,
+      "isAuto": false
+    },
+    {
+      "id": "cfcd76bc-46e4-483f-85fd-1175494d57d6",
+      "data": [
+        {
+          "text": "Jaisalmer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623260,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

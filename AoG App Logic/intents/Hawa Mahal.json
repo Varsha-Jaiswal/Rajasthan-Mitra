@@ -1,0 +1,161 @@
+{
+  "id": "dc5c77eb-a383-4645-9803-8182ec7a3e7e",
+  "name": "Hawa Mahal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Hawa Mahal or the 'Palace Of The Winds' located in the heart of the beautiful Pink City of Jaipur in Rajasthan, India.\nTimings:9 AM to 5 PM\nYou can reach at Hawa Mahal :\n\nFrom Jaipur Airport:\nIt is about 13 km to the Hawa Mahal and takes about 30 minutes.\n\nFrom Jaipur Railway Station\nYou can either take a taxi or catch a mini-bus to Badi Choupad for Hawa Mahal which will take 15 minutes.\n\nFrom Jaipur Bus Station\nIt takes 3 hours to travel from Jaipur Bus Station to Jaipur City Hawa Mahal."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Hawa Mahal",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Hawa Mahal",
+                "synonyms": []
+              },
+              "title": "Hawa Mahal",
+              "description": "Hawa Mahal",
+              "image": {
+                "url": "http://amerjaipur.in/amergallery/hawa%20mahal%20view%20from%20inside1.jpg",
+                "accessibilityText": "Hawa Mahal"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Hawa Mahal in night",
+                "synonyms": []
+              },
+              "title": "Hawa Mahal in night",
+              "description": "Hawa Mahal",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVvNoq3mIKl6KkLobEeMdf_hAENxdCZdJ3Fmvqo2Bi1Stjc3CMYg",
+                "accessibilityText": "Hawa Mahal"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Hawa Mahal side view",
+                "synonyms": []
+              },
+              "title": "Hawa Mahal side view",
+              "description": "Hawa Mahal",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoEJxn1oU6l7mBIZFyQ_tCZHOPvUYwx50CekgHp4ma3tTOiwvj",
+                "accessibilityText": "Hawa Mahal"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Hawa Mahal aerial view",
+                "synonyms": []
+              },
+              "title": "Hawa Mahal aerial view",
+              "description": "Hawa Mahal",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgwyIBeF7cEtCZsNjK5laPWgEHd4FlAi0mnG3BVb_mNcjlNC7Q",
+                "accessibilityText": "Hawa Mahal"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur Places"
+            },
+            {
+              "title": "Jaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623020,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4ac83022-747e-4ee8-8d6c-53ecab4de765",
+      "data": [
+        {
+          "text": "Hawa Mahal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532597893,
+      "isAuto": false
+    },
+    {
+      "id": "e9013ac3-3b76-4798-a254-501ace5803d3",
+      "data": [
+        {
+          "text": "Hawa Mahal night view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532597893,
+      "isAuto": false
+    },
+    {
+      "id": "d4567ae6-841e-43c6-ba7d-f5c452dd86f9",
+      "data": [
+        {
+          "text": "Hawa Mahal aerial view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532597893,
+      "isAuto": false
+    },
+    {
+      "id": "400d842e-881c-42fc-b4e0-1a7f692918fc",
+      "data": [
+        {
+          "text": "Hawa Mahal side view"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532597893,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

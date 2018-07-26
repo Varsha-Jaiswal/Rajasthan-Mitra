@@ -1,0 +1,142 @@
+{
+  "id": "7f31df7b-724e-45be-87a2-2143922c62ef",
+  "name": "Udaipur Hotels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Some of the feasible Hotels In Udaipur"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.goibibo.com/hotels/oyo-9350-viaan-hotel-in-udaipur-8179576030186318850/?hquery=%7B%22ci%22%3A%2220180805%22%2C%22co%22%3A%2220180806%22%2C%22r%22%3A%221-2-0%22%2C%22ibp%22%3A%22v3%22%2C%22ts%22%3A1%2C%22fwdp%22%3A%7B%22hn%22%3A%22oyo%209350%20hotel%20viaan%22%7D%2C%22pricedet%22%3A%22mp-1745-820-2565%22%7D&galist=D_H_T&npvp=2565&at=l",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Hotel Viaan",
+              "description": "Hotel Viaan",
+              "image": {
+                "url": "https://cdn1.goibibo.com/oyo-9350-hotel-viaan-udaipur-facade-131776786570-jpeg-fs.webp",
+                "accessibilityText": "Hotel Viaan"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.goibibo.com/hotels/radisson-blu-udaipur-palace-resort-spa-hotel-in-udaipur-90174504594702381/?hquery=%7B%22ci%22%3A%2220180805%22%2C%22co%22%3A%2220180806%22%2C%22r%22%3A%221-2-0%22%2C%22ibp%22%3A%22v3%22%2C%22ts%22%3A1%2C%22fwdp%22%3A%7B%22hn%22%3A%22radisson%20blu%20udaipur%20palace%20resort%20%26%20spa%22%7D%2C%22pricedet%22%3A%22mp-3650-2599-6249%22%7D&galist=D_H_T&npvp=4999[object%20Object]https://www.goibibo.com/hotels/radisson-blu-udaipur-palace-resort-spa-hotel-in-udaipur-90174504594702381/?hquery=%7B%22ci%22%3A%2220180805%22%2C%22co%22%3A%2220180806%22%2C%22r%22%3A%221-2-0%22%2C%22ibp%22%3A%22v3%22%2C%22ts%22%3A1%2C%22fwdp%22%3A%7B%22hn%22%3A%22radisson%20blu%20udaipur%20palace%20resort%20%26%20spa%22%7D%2C%22pricedet%22%3A%22mp-3650-2599-6249%22%7D&galist=D_H_T&npvp=4999[object%20Object]",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Radisson Blu",
+              "description": "Radisson Blu",
+              "image": {
+                "url": "https://cdn1.goibibo.com/t_fs/radisson-blu-udaipur-palace-resort-spa-udaipur-hotel-front-view-120333704116-orijgp.webp",
+                "accessibilityText": "Radisson Blu"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.goibibo.com/hotels/shiv-niwas-palace-hotel-in-udaipur-135836586032788834/?hquery=%7B%22ci%22%3A%2220180805%22%2C%22co%22%3A%2220180806%22%2C%22r%22%3A%221-2-0%22%2C%22ibp%22%3A%22v3%22%2C%22ts%22%3A1%2C%22fwdp%22%3A%7B%22hn%22%3A%22shiv%20niwas%20palace%22%7D%2C%22pricedet%22%3A%22mp-10155-0-10155%22%7D&galist=D_H_T&npvp=10155[object%20Object]",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Shiv Niwas Palace",
+              "description": "Shiv Niwas Palace",
+              "image": {
+                "url": "https://cdn1.goibibo.com/t_fs/shiv-niwas-palace-udaipur-main-photo-91346094582-orijgp.webp",
+                "accessibilityText": "Shiv Niwas Palace"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Udaipur Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624168,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "0be427cf-0549-4889-b29b-7b992f56e6cc",
+      "data": [
+        {
+          "text": "Udaipur Hotel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532624168,
+      "isAuto": false
+    },
+    {
+      "id": "9c0df416-21fb-43c4-b877-7bd02f7c5ae7",
+      "data": [
+        {
+          "text": "some Udaipur Hotels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532624168,
+      "isAuto": false
+    },
+    {
+      "id": "9c58c28d-96ae-45e6-82da-c3a4441a49d5",
+      "data": [
+        {
+          "text": "Udaipur Hotels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532624168,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

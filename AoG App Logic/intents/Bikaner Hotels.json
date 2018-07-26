@@ -1,0 +1,129 @@
+{
+  "id": "f65bbd25-6c1f-49b1-ad47-9bf134555dbd",
+  "name": "Bikaner Hotels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Here are the few hotels"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "items": [
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g297666-d3508339-Reviews-Tanisha_Heritage_Haweli-Bikaner_Bikaner_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Tanisha Heritage Haweli",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/dd/87/4d/lovely-stay-awesome-food.jpg",
+                "accessibilityText": "Tanisha Heritage Haweli"
+              }
+            },
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g297666-d1585866-Reviews-Vesta_Bikaner_Palace-Bikaner_Bikaner_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Vesta Bikaner Palace",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/53/56/72/vesta-bikaner-palace.jpg",
+                "accessibilityText": "Vesta Bikaner Palace"
+              }
+            },
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g297666-d11630431-Reviews-Narendra_Bhawan-Bikaner_Bikaner_District_Rajasthan.html"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Narendra Bhawan",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/18/20/a4/narendra-bhawan.jpg",
+                "accessibilityText": "Narendra Bhawan"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532622844,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4ae88490-c3fe-434d-b499-175c7d3ec8ef",
+      "data": [
+        {
+          "text": "Bikaner Hotels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532622844,
+      "isAuto": false
+    },
+    {
+      "id": "7eea3ca7-63fd-4abe-84ef-7b529e6bd453",
+      "data": [
+        {
+          "text": "Hotels in Bikaner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532595907,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

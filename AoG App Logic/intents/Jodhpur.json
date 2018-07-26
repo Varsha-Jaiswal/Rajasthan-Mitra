@@ -1,0 +1,69 @@
+{
+  "id": "6cb8b515-285d-4af5-9c87-6cb36a98323c",
+  "name": "Jodhpur",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Jodhpur is the second largest city in the Indian state of Rajasthan and officially the second metropolitan city of the state. It was formerly the seat of a princely state of the same name. The capital of the kingdom was known as Marwar. Jodhpur is a popular tourist destination, featuring many palaces, forts and temples, set in the stark landscape of the Thar Desert.\n\nThe old city circles the fort and is bounded by a wall with several gates. However, the city has expanded greatly outside the wall over the past several decades."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jodhpur Hotels"
+            },
+            {
+              "title": "Jodhpur Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623410,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3b09dec5-7e1e-4a6c-9eda-536f6fb29470",
+      "data": [
+        {
+          "text": "Jodhpur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532595066,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

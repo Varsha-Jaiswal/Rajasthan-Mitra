@@ -1,0 +1,113 @@
+{
+  "id": "22a9c007-56ef-407d-8b7f-9e37ec93d706",
+  "name": "UDAIPUR CITY PALACE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Udaipur, is a palace complex situated in the city of Udaipur, Rajasthan. It was built over a period of nearly 400 years\nTiming: 9:30 AM to 5:30\nYou can reach at  UDAIPUR CITY PALACE\nFrom Airport:\nIt covers 24 kms.\nFrom Railway Station:\nIt nearly takes 2 mins to cover 2 Km.\nFrom Bus Stand\nIt takes 36 km."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "UDAIPUR CITY PALACE",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "UDAIPUR CITY PALACE",
+                "synonyms": []
+              },
+              "title": "UDAIPUR CITY PALACE",
+              "description": "UDAIPUR CITY PALACE",
+              "image": {
+                "url": "http://images.mid-day.com/images/2016/may/Mor-Chowk.jpg",
+                "accessibilityText": "UDAIPUR CITY PALACE"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "UDAIPUR CITY PALACE top view",
+                "synonyms": []
+              },
+              "title": "UDAIPUR CITY PALACE top view",
+              "description": "UDAIPUR CITY PALACE top view",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Evening_view%2C_City_Palace%2C_Udaipur.jpg/1200px-Evening_view%2C_City_Palace%2C_Udaipur.jpg",
+                "accessibilityText": "UDAIPUR CITY PALACE"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "UDAIPUR CITY PALACE aerial view",
+                "synonyms": []
+              },
+              "title": "UDAIPUR CITY PALACE aerial view",
+              "description": "UDAIPUR CITY PALACE  aerial view",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Badi_Mahal.jpg/260px-Badi_Mahal.jpg",
+                "accessibilityText": "UDAIPUR CITY PALACE"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Udaipur Places"
+            },
+            {
+              "title": "Udaipur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624094,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8df7322a-0e95-4573-a012-59d800a9048b",
+      "data": [
+        {
+          "text": "UDAIPUR CITY PALACE"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532613335,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

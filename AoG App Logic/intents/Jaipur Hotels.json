@@ -1,0 +1,129 @@
+{
+  "id": "1a6a6359-31f0-4b47-b518-41a897e2301a",
+  "name": "Jaipur Hotels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Here are the few hotels"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "items": [
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g304555-d472632-Reviews-Umaid_Bhawan_Heritage_House_Hotel-Jaipur_Jaipur_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Umaid Bhawan Heritage House Hotel",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/09/a7/ab/ee/umaid-bhawan-heritage.jpg",
+                "accessibilityText": "Umaid Bhawan Heritage House Hotel"
+              }
+            },
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g304555-d3801241-Reviews-Radisson_Blu_Jaipur-Jaipur_Jaipur_District_Rajasthan.html",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Radisson Blu Jaipur",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/23/ed/c5/presidential-suite.jpg",
+                "accessibilityText": "Radisson Blu Jaipur"
+              }
+            },
+            {
+              "footer": "See More",
+              "openUrlAction": {
+                "url": "https://www.tripadvisor.in/Hotel_Review-g304555-d304847-Reviews-Taj_Jai_Mahal_Palace_Jaipur-Jaipur_Jaipur_District_Rajasthan.html"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Taj Jai Mahal Palace Jaipur",
+              "image": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/02/49/8f/exterior.jpg",
+                "accessibilityText": "Taj Jai Mahal Palace Jaipur"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaipur Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623142,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cf6f5a2c-31e5-4359-9ff5-b6047805ef42",
+      "data": [
+        {
+          "text": "Hotels in Jaipur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1532594616,
+      "isAuto": false
+    },
+    {
+      "id": "cc20f968-1810-4578-ab1a-e12d8d323575",
+      "data": [
+        {
+          "text": "Jaipur Hotels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532594616,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

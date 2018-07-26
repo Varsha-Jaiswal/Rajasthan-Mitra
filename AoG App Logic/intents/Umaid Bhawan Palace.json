@@ -1,0 +1,137 @@
+{
+  "id": "89bf56cb-31e7-489b-ac9d-301d8df46567",
+  "name": "Umaid Bhawan Palace",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Built between 1928 and 1943, this grand yellow sandstone palace spreads over 26 acres of gardens, making it one of the largest private residences in the world. \nUmaid Bhawan Palace overlooks the desert capital of Jodhpur, a 15-minute drive from Jodhpur Airport and 1.5 mi from Jodhpur Railway Station. Attractions like Clock Tower Market, Mehrangarh Fort and Jaswant Thada monument are within 5.6 min away."
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Umaid Bhawan Palace",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Umaid Bhawan Palace",
+                "synonyms": []
+              },
+              "title": "Umaid Bhawan Palace",
+              "description": "Umaid Bhawan Palace",
+              "image": {
+                "url": "https://taj.tajhotels.com/content/dam/luxury/hotels/Umaid_Bhavan/images/3x2/SE_PalaceExterior2-3x2-Copy.jpg",
+                "accessibilityText": "Umaid Bhawan Palace"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Umaid Bhawan Palace Top View",
+                "synonyms": []
+              },
+              "title": "Umaid Bhawan Palace Top View",
+              "description": "Umaid Bhawan Palace Top View",
+              "image": {
+                "url": "https://www.ohmyrajasthan.com/uploads/4/1511863805UBP-by-Sam.jpg",
+                "accessibilityText": "Umaid Bhawan Palace Top View"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Umaid Bhawan Palace Inner View",
+                "synonyms": []
+              },
+              "title": "Umaid Bhawan Palace Inner View",
+              "description": "Umaid Bhawan Palace Inner View",
+              "image": {
+                "url": "https://ui.cltpstatic.com/places/hotels/4069/40693/images/42417541_w.jpg",
+                "accessibilityText": "Umaid Bhawan Palace Inner View"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jodhpur Places"
+            },
+            {
+              "title": "Jodhpur Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532624291,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ecadf226-b12d-45da-85a4-9570b59436f0",
+      "data": [
+        {
+          "text": "Umaid Bhawan Palace Inner View"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532624291,
+      "isAuto": false
+    },
+    {
+      "id": "52df3b2f-3c3b-4a97-bb29-39b8c46ad076",
+      "data": [
+        {
+          "text": "Umaid Bhawan Palace Top View"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532624291,
+      "isAuto": false
+    },
+    {
+      "id": "d864262b-4884-4072-9515-f3201aebed6b",
+      "data": [
+        {
+          "text": "Umaid Bhawan Palace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532624291,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

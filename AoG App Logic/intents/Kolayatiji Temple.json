@@ -1,0 +1,101 @@
+{
+  "id": "8e5839c5-0949-4bbe-849d-1648f4563b6f",
+  "name": "Kolayatiji Temple",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Kolayat is a town in the Bikaner district of the Indian state of Rajasthan. It is also the ... Kolayat has a series of marble temples, sandstone pavilions and 52 ghats .\nTiming: 9 AM to 5 PM"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Kolayatiji Temple",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Kolayatiji Temple",
+                "synonyms": []
+              },
+              "title": "Kolayatiji Temple",
+              "description": "Kolayatiji Temple",
+              "image": {
+                "url": "http://ecourts.gov.in/sites/default/files/nakodaji.jpg",
+                "accessibilityText": "Kolayatiji Temple"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Kolayatiji Temple side view",
+                "synonyms": []
+              },
+              "title": "Kolayatiji Temple side view",
+              "description": "Kolayatiji Temple side view",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnF0EJUr4kI-LRs-zGfqYY39cr2kmKy3NtP4bzg6iPSzd-UbAyqQ",
+                "accessibilityText": "Kolayatiji Temple"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bikaner Places"
+            },
+            {
+              "title": "Bikaner Hotel"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623600,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "314a3a96-4d80-4ca8-86cb-f87dc925d9e7",
+      "data": [
+        {
+          "text": "Kolayatiji Temple"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623600,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

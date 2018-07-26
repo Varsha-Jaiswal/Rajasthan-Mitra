@@ -1,0 +1,122 @@
+{
+  "id": "2e3e0792-f652-490b-b5f3-2c903fcce9c6",
+  "name": "Jaisalmer Places",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Jaisalmer is a beautiful places to visit . Having multiple places to wounder"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "Pokhran Fort",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Pokhran Fort",
+                "synonyms": []
+              },
+              "title": "Pokhran Fort",
+              "description": "Pokhran Fort",
+              "image": {
+                "url": "https://storiesflistgv2.blob.core.windows.net/stories/2017/07/Pokhran_inside_A.jpg",
+                "accessibilityText": "Pokhran Fort"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Jaisalmer War Museum",
+                "synonyms": []
+              },
+              "title": "Jaisalmer War Museum",
+              "description": "Jaisalmer War Museum",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/The_Honour_Walls_at_Jaisalmer_War_Museum.jpg",
+                "accessibilityText": "Jaisalmer War Museum"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaisalmer Hotels"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623380,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "20314a3f-6c2a-48f8-a182-e60f5ba44029",
+      "data": [
+        {
+          "text": "show some of the places in Jaisalmer Places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618257,
+      "isAuto": false
+    },
+    {
+      "id": "8e6f5894-a45d-4d05-b70c-1b6143d6d36d",
+      "data": [
+        {
+          "text": "Varieties of places in Jaisalmer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618257,
+      "isAuto": false
+    },
+    {
+      "id": "ba98f1b1-28b7-4fd3-9f24-eb32f271f813",
+      "data": [
+        {
+          "text": "Jaisalmer Places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618257,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

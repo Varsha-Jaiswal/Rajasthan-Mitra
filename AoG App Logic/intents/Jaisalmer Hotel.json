@@ -1,0 +1,127 @@
+{
+  "id": "46f6b58f-7551-4e56-81ad-1c7d22d5f816",
+  "name": "Jaisalmer Hotel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "There are many  fascinating hotels in Jaisalmer."
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.makemytrip.com/mmthtl/site/hotels/detail?country=IN&city=JSA&checkin=07282018&checkout=07292018&searchText=Jaisalmer,%20India&roomStayQualifier=1e0e&hotelId=201207161913151655&p=26.909737%7C70.91292%7C0%7C1%7C3&newListing=true",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Hotel Tokyo Palace",
+              "description": "Hotel Tokyo Palace",
+              "image": {
+                "url": "https://r1imghtlak.mmtcdn.com/8a9f81d4644811e5a032001ec9b85d13.jfif?&downsize=800:*&crop=800:490;0,22&output-format=jpg",
+                "accessibilityText": "Hotel Tokyo Palace"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.makemytrip.com/mmthtl/site/hotels/detail?country=IN&city=JSA&checkin=07282018&checkout=07292018&searchText=Jaisalmer,%20India&roomStayQualifier=1e0e&hotelId=201403111419165891&p=26.9032%7C70.9127%7C0%7C1%7C4&newListing=true",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "HOTEL HELSINKI HOUSE",
+              "description": "HOTEL HELSINKI HOUSE",
+              "image": {
+                "url": "https://r1imghtlak.mmtcdn.com/5d553e5c4f9b11e4a0f85ee5da2daa2a.jfif?&downsize=800:*&crop=800:490;0,21&output-format=jpg",
+                "accessibilityText": "HOTEL HELSINKI HOUSE"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Jaisalmer Places"
+            },
+            {
+              "title": "See more cities"
+            },
+            {
+              "title": "Bye"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532623333,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "da56c924-e33e-44f7-8602-bbf84602503d",
+      "data": [
+        {
+          "text": "Jaisalmer Hotels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532623333,
+      "isAuto": false
+    },
+    {
+      "id": "5365c3b9-8037-4b94-afb5-bfd270aeef0d",
+      "data": [
+        {
+          "text": "Varieties of Jaisalmer Hotel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618762,
+      "isAuto": false
+    },
+    {
+      "id": "0a585102-9b19-4f48-abcb-5572042cbc80",
+      "data": [
+        {
+          "text": "Jaisalmer Hotel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1532618762,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
