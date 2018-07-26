@@ -16,3 +16,10 @@ Rajasthan Tourism Guide for travelers | Actions for Google Assistant
 2. Install Nodejs and Firebase CLI.
 3. `firebase init` and then select your project
 4. `firebase deploy` to deploy the web app.
+
+
+### Contributers 
+
+1. Varsha Jaiswal
+2. Sonakshi Shukla 
+3. Vrijraj Singh
